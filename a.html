@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+  let arr1 = [1, 2, 3, 4, 5, 6, 'asd', 'das']
+  let arr2 = [2, 3, 4, 5, 6, 7, 8, 'god', 'dog'];
+
+  function remove(arr, index) {
+    arr[index] = "";
+    // removed index become blank string;
+    // arr length unchanged
+    console.log(arr);
+  }
+
+  console.log(arr1);
+  console.log(arr2);
+  remove(arr1, 5);
+  remove(arr2, 4);
+</script>
+</body>
+</html>
